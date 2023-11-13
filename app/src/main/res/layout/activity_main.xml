@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/btnMovie"
+            android:src="@drawable/img_movie"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <ImageView
+            android:id="@+id/btnBook"
+            android:src="@drawable/img_book"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <ImageView
+            android:id="@+id/btnConcert"
+            android:src="@drawable/img_concert"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
